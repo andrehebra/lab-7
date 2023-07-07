@@ -42,13 +42,15 @@ int main() {
     int length = 9;
     int count = 0;
 
+    printf("Original Array:  ");
     printArray(array, length);
 
     count = bubbleSort(array, length);
 
+    printf("Sorted Array:    ");
     printArray(array, length);
 
-    printf("\nNumber of Swaps: %3d", count);
+    printf("\nNumber of Swaps: %3d\n", count);
 
 
 
