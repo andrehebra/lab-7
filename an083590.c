@@ -31,7 +31,7 @@ int* bubbleSort(int *array, int length) {
         count++;
     }
 
-    track[0] = count-1;
+    track[0] = count + 1;
 
     return track;
     
